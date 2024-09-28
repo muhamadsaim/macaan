@@ -1,8 +1,9 @@
-import DocumentAnswer from "@/app/components/documentAnswer";
-import EscalationForm from "@/app/components/esclationForm";
-import ReplySection from "@/app/components/replySection";
-import StatCard from "@/app/components/statCard";
-import VisibilityToggle from "@/app/components/visibiltyToggle";
+import DocumentAnswer from "../../components/documentAnswer";
+import EscalationForm from "../../components/esclationForm";
+import ReplySection from "../../components/replySection";
+import StatCard from "../../components/statCard";
+import VisibilityToggle from "../../components/visibiltyToggle";
+
 
 const StartWorking = () => {
   const metrics = [
@@ -29,10 +30,10 @@ const StartWorking = () => {
       {/* Middle Section: ReplySection and DocumentAnswer */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="md:col-span-2">
-          <ReplySection />
+          <ReplySection/>
         </div>
         <div className="col-span-1 space-y-6">
-          <DocumentAnswer />
+          <DocumentAnswer/>
           <EscalationForm />
         </div>
       </div>
