@@ -11,8 +11,7 @@ All SVG files and icons are stored in the public/assets directory for easy acces
 #Running the Project
 To run the development server:
 
-bash
-Copy code
+# bash
 npm run dev
 # or
 yarn dev
